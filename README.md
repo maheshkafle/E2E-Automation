@@ -1,2 +1,2 @@
-# E2E-Automation
-E2E-Automation
+# The-Internet-Example-Solution
+The-Internet-Example-Solution
