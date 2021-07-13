@@ -22,7 +22,6 @@ driver.maximize_window()
 # action_chain = ActionChains(driver)
 source_element = driver.find_element(By.XPATH, '//*[@id="column-a"]')
 target_element = driver.find_element(By.XPATH, '//*[@id="column-b"]')
-# time.sleep(2)
 # action_chain.drag_and_drop(source_element,target_element).perform()
 drag_and_drop(driver,source_element, target_element)
 # Added static wait to slow down process and validate in UI
