@@ -1,5 +1,4 @@
 import time
-
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.by import By
@@ -22,6 +21,6 @@ for select_element in select_elements:
     #Method 2 ---> put value inside value="" in html option tag inside select tag
     select_option.select_by_value("2")
     break
-
+# Added static wait to slow down process and validate in UI
 time.sleep(3)
 driver.quit()
