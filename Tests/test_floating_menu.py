@@ -39,6 +39,6 @@ time.sleep(3)
 driver.execute_script("window.scroll(0,document.body.scrollHeight);")
 loop_through_nav_bar_and_click_elements(nav_bar_elements)
 
-# Added static wait to slow down mouse hover and validate in UI
+# Added static wait to slow down process and validate in UI
 time.sleep(2)
 driver.quit()
