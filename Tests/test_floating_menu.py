@@ -25,14 +25,14 @@ def loop_through_nav_bar_and_click_elements(nav_bar_elements):
         Loop through li of a div and click each li's and assert it
     '''
     for ele in range(len(nav_bar_elements)):
-        ## Added static wait to slow down mouse hover and validate in UI
+        ## Added static wait to slow down process and validate in UI
         time.sleep(3)
         element = nav_bar_element.find_elements_by_tag_name("li")[ele]
         element.click()
 
 #Assert presence of menu bar
 loop_through_nav_bar_and_click_elements(nav_bar_elements)
-# Added static wait to slow down mouse hover and validate in UI
+# Added static wait to slow down process and validate in UI
 time.sleep(3)
 
 #Execute Scroll down to bottom of page and click menu bar
