@@ -5,7 +5,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.by import By
 
 """
-Test file downloader
+Test infinite scroll page
 """
 
 SCROLL_PAUSE_TIME = 0.5
